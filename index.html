@@ -9,34 +9,78 @@
 
 
 
-<body>
+<body onload="get()" >
 
-    <label>First Name</label>
-    <input class="row" type="text" id="first-name" > 
-    <br>
+  <center>
     
-    <br>
-  <button type="button" id="submitBtn">Submit</button>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+  <div class="boxField">
+  <p> Data Input</p>
+    <input class="inputBox" type="text" id="input" placeholder="First Name" required>
+     <input class="inputBox" type="text" id="input2" placeholder="Last Name" required>
+      <input class="inputBox" type="text" id="input3" placeholder="User" required>
+       <input class="inputBox" type="text" id="input4" placeholder="Password" required>
+    
+  </div>
+  
+  </center>
+  
+  <div>
+  
+  <button onclick="checkedIn()"> CHECKEDIN </button>
+  
+  <button onclick="checkedOut()"> CHECKEDOUT </button>
+  
+  </div> 
+  
+  <div class="combo">
+  
+   <div class="listSave">
+  
+   
+    
+  <p id="nameSaved"> 1</p>
+  <p id="nameSaved2"> 2</p>
+    <p id="nameSaved3"> 3</p>
+  <p id="nameSaved4"> 4</p>
+  <p id="nameSaved5"> 5</p>
+  <p id="nameSaved6"> 6</p>
+  <p id="nameSaved7"> 7</p>
+  <p id="nameSaved8"> 8</p>
+  <p id="nameSaved9"> 9</p>
+  <p id="nameSaved10"> 10</p>
+  <p id="nameSaved11"> 11</p>
+  <p id="nameSaved12"> 12</p>
+  <p id="nameSaved13"> 13</p>
+  <p id="nameSaved14"> 14</p>
+  <p id="nameSaved15"> 15</p>
+  
+  
+   
+  </div>
+  
+  <div class="listSave">
+  
+    <p id="outSaved"> 1</p>
+    <p id="outSaved2"> 2</p>
+    <p id="outSaved3"> 3</p>
+  <p id="outSaved4"> 4</p>
+  <p id="outSaved5"> 5</p>
+  <p id="outSaved6"> 6</p>
+  <p id="outSaved7"> 7</p>
+  <p id="outSaved8"> 8</p>
+  <p id="outSaved9"> 9</p>
+  <p id="outSaved10"> 10</p>
+  <p id="outSaved11"> 11</p>
+  <p id="outSaved12"> 12</p>
+  <p id="outSaved13"> 13</p>
+  <p id="outSaved14"> 14</p>
+  <p id="outSaved15"> 15</p>
+  
+  </div>
+  
+  </div>
+    
+    <script src='script.js'></script>
+    
+  </body>
 </html>
