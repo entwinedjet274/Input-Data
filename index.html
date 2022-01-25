@@ -1,58 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Input Data</title>
    <meta name="viewport" content="width=device-width,initial-scale=1" >
 
   <link href='style.css' rel='stylesheet'>
 </head>
 <body>
+<header>
+  <head>Input Data</head>
+</header>
+  <center>
   <div class="boxField">
 <input class="inputBox" type="text" id="input" placeholder="First Name" required>
    <input class="inputBox" type="text" id="input2" placeholder="Last Name" required>
    </div>
+</center>
 
-     <div>
-
-<button onclick="checkedIn()"> CHECKEDIN </button>
-
-<button onclick="checkedOut()"> CHECKEDOUT </button>
-
-</div> 
-
+<div id="btn">
+  <button id="increment-btn" onclick="increment()">CHECKEDIN</button>
+        <button id="save-btn" onclick="save()">CHECKEDOUT</button>
+        <p id="save-el"> </p>
+        <p id="count-el"> </p>
+        
+</div>
 
 
 <div class="combo">
 
  <div class="listSave">
-
- 
   
-<p id="nameSaved"> 1</p>
-<p id="nameSaved2"> 2</p>
-  <p id="nameSaved3"> 3</p>
-<p id="nameSaved4"> 4</p>
-<p id="nameSaved5"> 5</p>
+<p id="nameSaved"> </p>
 
 </div>
 
 <div class="listSave">
 
-  <p id="outSaved"> 1</p>
-  <p id="outSaved2"> 2</p>
-  <p id="outSaved3"> 3</p>
-<p id="outSaved4"> 4</p>
-<p id="outSaved5"> 5</p>
-
+  <p id="outSaved"> </p>
+ 
 </div>
 
 </div>
-
-      <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
-        <p id="save-el">Previous entires: </p>
-<p id="save2">0</p>
    <script src='script.js'></script>
 </body>
 </html>
